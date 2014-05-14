@@ -18,3 +18,29 @@ $ ./getTopTenIp.py domain.com.access.log
 ['60.55.9.173', 204]
 ['125.39.16.194', 185]
 ```
+###getTopTenIpFromTcpConnections.py
+
+Getting top ten ip from tcp connections, which is usefule when server is attacked.
+
+```
+$ ./getTopTenIpFromTcpConnections.py
+['323', '123.150.201.66']
+['266', '183.136.136.99']
+['202', '122.136.128.137']
+['148', '125.45.231.7']
+['129', '122.136.128.138']
+['105', '121.31.122.10']
+['100', '124.67.72.155']
+['99', '221.228.209.137']
+['98', '61.158.0.118']
+['96', '114.254.87.203']
+
+###updateIdInMongodb.py
+
+Updating rule id in mongodb, which is used to fix the unexisted field.
+
+```
+$ ./updateIdInMongodb.py
+###starting update###
+###finishing update###
+```
