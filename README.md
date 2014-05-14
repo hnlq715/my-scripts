@@ -34,13 +34,15 @@ $ ./getTopTenIpFromTcpConnections.py
 ['99', '221.228.209.137']
 ['98', '61.158.0.118']
 ['96', '114.254.87.203']
+```
 
 ###updateIdInMongodb.py
 
 Updating rule id in mongodb, which is used to fix the unexisted field.
 
-```
 $ ./updateIdInMongodb.py
+
+```
 ###starting update###
 ###finishing update###
 ```
