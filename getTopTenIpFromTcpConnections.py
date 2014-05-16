@@ -11,8 +11,4 @@ for i in data:
     tmp = i.strip('\n').strip(' ').split(' ')
     list.append(tmp)
 
-if int(len(list)) < 10:
-    print list
-
-for i in range(0,10):
-    print list[i]
+print list[0:10]
