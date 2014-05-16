@@ -15,9 +15,4 @@ for d in data:
 
 r.sort(key=lambda x:x[1], reverse=True)
 
-if len(r) < 10:
-    for s in r:
-        print s
-else:
-    for i in range(0,10):
-        print r[i]
+print r[0:10]
