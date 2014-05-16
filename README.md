@@ -58,6 +58,6 @@ $ ./server.py
 Getting the tcp status of the localhost
 
 ```
-$ ./getTcp.py 
+$ ./getTcpStatus.py 
 [['TIME_WAIT', '10977'], ['SYN_SENT', '22'], ['FIN_WAIT1', '15276'], ['FIN_WAIT2', '272'], ['ESTABLISHED', '15209'], ['SYN_RECV', '132'], ['CLOSING', '10'], ['LAST_ACK', '625']]
 ```
